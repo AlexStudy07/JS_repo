@@ -5,7 +5,7 @@ var randomNumber = Math.floor(Math.random() * 8); //Random Number
 var eightBall = ''; //variable for quescion identification by random number
 function getNameFromInput()/*used for name extraction from HTML input */ {
     playerName = document.getElementById('Name').value;
-    playerName ? console.log(`Hello, ${playerName}!`) : console.log('Hello guest!');
+    playerName ? console.log(`Hello, ${playerName}! Do you have quescions?`) : console.log('Hello guest! Do you have quescions?');
     document.getElementById("yBtn").disabled = false; //yes button activation for future actions
     document.getElementById("nBtn").disabled = false; //no button activation for future actions
 }
