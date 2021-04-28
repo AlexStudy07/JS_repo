@@ -7,12 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-<<<<<<< HEAD
-    
+    <input type="text" id="Name" name="fname" >  
+    <button type="submit" onClick="getNameFromInput(this.value);">Check name</button>
+</br></br>
+    <button type="button" id='yBtn' onClick="activateQuescionField()" disabled value = "yes">Yes</button>
+    <button type="button" id='nBtn' onClick="noAnswer()" disabled value = "no">No</button>
+</br></br>
+    <input type="text" id="quescion" name="fname" onkeypress="getQuescionFromInput()" disabled>
+    <button type="submit" id="ckQuescionBtn" onClick="checkQuescion();" disabled>Check quescion</button>
     <script src="app_kelvin.js"></script>
 	<script src="app_dogs.js"></script>
-=======
-    <script src="app_kelvin.js"></script>
->>>>>>> f57f4ab2f2852ccdcbb2e3751873cc87c8f8184e
+    <script src="app_8Ball.js"></script>
 </body>
 </html>
